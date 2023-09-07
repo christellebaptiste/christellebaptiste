@@ -1,0 +1,37 @@
+*{box-sizing:border-box}
+.title{
+    background-color: hotpink;
+    color: rgb(189, 163, 177);
+    padding: 1em;
+    text-align: center;
+}
+.img1, .img2, .img3, .img4{
+    width: 45%;
+    margin: 2%;
+}
+.img1{
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px black;
+}
+ .img2{
+    border-radius: 50%;
+ }
+ .img3{
+    border: plum 10px inset;
+    padding: 1em;
+}
+
+.img5, .img6{
+    width: 45%;
+    margin: 2%;
+
+
+}
+.img5{
+ border-radius: 50%;
+}
+
+.img6{
+    border: olive 10px inset;
+    padding: 1em;
+}
