@@ -2,3 +2,22 @@
     body{background-color: sandybrown};
     .intro{width:80%;}
 }
+@media only screen and (max-width: 800px){
+    body{background-color: sandybrown};
+    .intro{width:96%;}
+    .card{width: 60%;
+        margin: 5% auto ; 
+    }
+    .links{ width: 32.9%; display: block;
+    padding: 1em 0em;
+     text-align: center;
+    }
+}
+@media only screen and (max-width: 600px){
+    body{background-color: lightsalmon;}
+    .links{ width: 31%;}
+    .card{width: 80%;}
+    
+
+}
+     
