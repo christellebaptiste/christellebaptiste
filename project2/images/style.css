@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;}
+    .intro{
+        box-shadow: 2px 2px 5px burlywood;
+        margin: 7em auto;
+        border-radius: 1em;
+        overflow: hidden;
+        position: relative;
+        width: 60%;
+    }
+    img{
+        width: 100%;
+        display: block;
+    }
+    .intro_pg{
+        position: absolute;
+        top: 0%;
+        left: 10%;
+        right: 10%;
+        text-align: center;
+        font-size:2.5em;
+        color: olive;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*--------- cards-------*/
+    .title{ border-bottom: rosybrown 1px;
+    padding-top: 3em;}
+     
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 29%;
+        box-shadow: 2px 2px 5px olive;
+        border-radius: 0.2em;
+        overflow: hidden;
+        margin: 2%;
+        position: relative;
+    }
